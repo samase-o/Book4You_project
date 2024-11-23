@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    /* background-image: url(book.jpeg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+div {
+    color: coral;
+    font-size: xx-large;
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+button {
+    color: black;
+    font-size: medium;
+    padding: 15px 15px;
+}
+
+input[type=varchar] {
+    width: 15%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+title {
+    background-color: brown;
+    /* background-image: url(project.png);*/
+}
