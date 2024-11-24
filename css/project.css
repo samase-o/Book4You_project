@@ -1,0 +1,376 @@
+/*img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #64321b;
+    overflow: hidden;
+    border-bottom: 5px dashed#d1c0a3;
+    border-top: 5px dashed #d1c0a3;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+header {
+
+    color: #381707;
+
+
+
+}
+
+.offset {
+
+    padding-bottom: 5px;
+    text-shadow: 3px 4px rgba(black, .1);
+    margin: 0;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+.header_logo {
+
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 3px 4px rgba(black, .1);
+    transition: .3s;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #64321b;
+    height: 10%;
+    color: #e6c9bc;
+    border-bottom: 5px dashed #d1c0a3;
+    border-top: 5px dashed #d1c0a3;
+
+}
+
+/*body*/
+.background {
+
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-image: url("../floral-decoration-on-burnt-old-paper.jpg");
+
+}
+
+.background-2 {
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-color: hsl(44deg 37.34% 69.84%);
+    background-image: url("/css/images.png");
+}
+
+form,
+.note {
+    font-size: 20px;
+    color: #e1e0b4;
+
+
+    font-weight: bold;
+}
+
+h1.font {
+    color: #181512;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.name {
+    display: block;
+    width: 20%;
+    padding: 12px 12px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid #64321b n;
+    border-radius: 4px;
+}
+
+.port {
+    display: block;
+    width: 20%;
+    border: 2px solid #64321b n;
+    border-radius: 4px;
+}
+
+select {
+    display: block;
+
+}
+
+input[type=submit],
+input[type=reset] {
+    background-color: #64321b;
+
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+
+}
+
+.foo {
+
+    bottom: 10px;
+    width: 98%;
+    border: 5px dashed#d1c0a3;
+}
+
+.ticket {
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    width: 25%;
+    height: 30%px;
+    padding: 10px;
+    border: 10px solid white;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.main {
+    margin: 5px;
+    padding: 2px;
+    font-size: 20px;
+}
+
+/*the container must be positioned relative:*/
+.myselect {
+    position: relative;
+    font-family: Arial;
+
+    background-color: #64321b;
+
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent #64321b;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+/*writers page */
+.one {
+    width: 100%;
+    font-size: 30px;
+    border-bottom: 10px dashed green;
+    padding: 30px;
+    background-image: url('project\ photos/openbook_yellow.jpeg');
+}
+
+.author2,
+.author1,
+.author3,
+.author4,
+.author7,
+.author6,
+.author8,
+.author10,
+.author11,
+.author12,
+.author13,
+.author14,
+.author15,
+.card-body {
+    width: 20%;
+    height: 25%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #1f0f07;
+    border: 10px ridge #64321b;
+    display: inline-block;
+    color: #e6c9bc;
+}
+
+
+.header {
+    width: 30%;
+
+}
+
+.add {
+    width: 40%;
+    margin: 20px;
+}
+
+.add h1 {
+    font-size: 70px;
+    color: #fdfbfa;
+
+}
+
+.add2 {
+    font-size: 40px;
+
+    width: 100%;
+    padding: 12px 12px;
+
+    border: 2px solid #64321b;
+
+
+}
+
+.add3 {
+    font-size: 50px;
+}
+
+.add4 {
+    font-size: 60px;
+}
+
+.btn {
+    width: 30%;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+
+    padding: 10px;
+}
+
+.event {
+    font-size: 100px;
+    color: #f7f6f4;
+    border-left: #381707;
+}
+
+.p {
+    /* float: right;*/
+    font-size: 30px;
+    text-align: left;
+    color: #26199c;
+
+}
+
+
+.container {
+    font-size: 40px;
+    padding: 10px;
+    margin: 5px;
+}
+
+input {
+    font-size: 30px;
+    border: 2px solid #663300;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    font-size: 20px;
+    background-color: #faee9e;
+}
+
+.but {
+    font-size: 60px;
+    background-color: #2e1e11;
+    color: #d1c0a3;
+}
+
+main {
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    border: 5px ridge #64321b;
+    text-align: center;
+}
+
+.card img {
+    width: 250px;
+}
+
+
+/*contact us */
+.input {
+    display: block;
+    width: 20%;
+    padding: 12px 12px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid #64321b n;
+    border-radius: 4px;
+}
+
+.contact {
+    font-size: 80px;
+    color: #f7f6f4;
+    text-align: center;
+
+}
+
+.input1 {
+    width: 20%;
+    padding: 12px 12px;
+}
+
+.input-container {
+    font-size: 40px;
+    color: #e1e0b4;
+
+}
+
+.margin-bottom {
+    display: block;
+}
+
+.margin_bottom {
+    font-size: 30px;
+}
+
+/*publisher page */
+
+
+th,
+td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    color: rgb(14, 12, 12);
+    text-align: right;
+    font-size: x-large;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    font-size: large;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(44deg 37.34% 69.84%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*  background-image: url(book.jpeg);*/
+
+}
