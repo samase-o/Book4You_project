@@ -32,7 +32,6 @@ A dynamic and user-friendly PHP-based platform for browsing, searching, and mana
 
 ## Folder Structure
 - **css**: Stylesheets
-- **js**: JavaScript files
 - **images**: Images and book covers
 - **includes**: PHP scripts (header, footer, database connection)
 - **admin**: Admin panel files
